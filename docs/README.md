@@ -1,33 +1,33 @@
 ## PaCER Toolbox
 Precise and Convenient Electrode Reconstruction for DBS
 
-Please note that PaCER is a research tool **NOT** intended for clinical use.   
+Please note that PaCER is a research tool **NOT** intended for clinical use.
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 **GNU Affero General Public License** for more details.
 
-Copyright (C) 2016-2017  Andreas Husch, 
+Copyright (C) 2016-2017  Andreas Husch,
 					Centre Hospitalier de Luxembourg, National Department of Neurosurgery and
 				    University of Luxembourg, Luxembourg Centre for Systems Biomedicine
 ![Image of a PaCER electrode reconstruction at two different time points of resolving brain shift.](PaCER.png)
-### Background 
-The PaCER Toolbox is a MATLAB implementation of a robust method to fully automatically reconstruct deep brain stimulation leads from post operative CT imaging data. PaCER is able to fully preserve electrode bending (e.g. caused by brainshift). Further is able to detect individual contacts on high-resolution data. 
+### Background
+The PaCER Toolbox is a MATLAB implementation of a robust method to fully automatically reconstruct deep brain stimulation leads from post operative CT imaging data. PaCER is able to fully preserve electrode bending (e.g. caused by brainshift). Further is able to detect individual contacts on high-resolution data.
 The PaCER toolbox is provided with means to easily visualize electrodes as well as imaging data within the MATLAB environment
-. 
+.
 ### Requirements
-The requirements to use PaCER are 
- *  **MATLAB**  
- *  a **post-operative CT image** in **nifti** file format. 
- 
+The requirements to use PaCER are
+ *  **MATLAB**
+ *  a **post-operative CT image** in **nifti** file format.
+
 A **CT slice-thickness <= 1 mm** is recommend, however PaCER will
-work on lower resolution data too by falling back to a less sophisticated contact detection 
+work on lower resolution data too by falling back to a less sophisticated contact detection
 method (yielding lower accuracy). Nifti input files are supported in compressed form (.nii.gz) as
 well as non-compressed (.nii).
 
 ### Getting Started
 The easiest way to learn about PaCER is to run the example files. We recommend to add the
-PaCER directory and all its subdirectories to your MATLAB path first. This can be 
+PaCER directory and all its subdirectories to your MATLAB path first. This can be
 archived by running the file SETUP_PACER.m in MATLAB (once). The examples include a call
 to SETUP_PACER.
 
@@ -44,7 +44,7 @@ Feel free to open an issue at [https://github.com/adhusch/PaCER](https://github.
 
 ### Literature
 
-A. Husch, M. V. Petersen, P. Gemmar, J. Goncalves, F. Hertel: PaCER - A fully automated method for electrode trajectory and contact reconstruction in deep brain stimulation, NeuroImage: Clinical, Available online 6 October 2017, ISSN 2213-1582, https://doi.org/10.1016/j.nicl.2017.10.004. 
+A. Husch, M. V. Petersen, P. Gemmar, J. Goncalves, F. Hertel: PaCER - A fully automated method for electrode trajectory and contact reconstruction in deep brain stimulation, NeuroImage: Clinical, Available online 6 October 2017, ISSN 2213-1582, https://doi.org/10.1016/j.nicl.2017.10.004.
 [Article is open access and available at Elsevier ScienceDirect](http://www.sciencedirect.com/science/article/pii/S2213158217302450).
 
 ### Acknowledgement
@@ -62,4 +62,4 @@ We feel grateful to the authors of this toolboxes and scripts:
 
 
 
-![Logo LCSB / Uni.lu](unilcsb.png){:height="50px"}          ![Logo LCSB / Uni.lu](fnr.gif){:height="50px"}           ![Logo CHL](CHL.png){:height="50px"} 
+![Logo LCSB / Uni.lu](unilcsb.png){:height="50px"}          ![Logo LCSB / Uni.lu](https://www.fnr.lu/wp-content/themes/fnr/assets/images/logo.png){:height="50px"}           ![Logo CHL](CHL.png){:height="50px"}
