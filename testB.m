@@ -1,3 +1,3 @@
 function testB()
-    warning('testB');
+    warning('This is a warning in the testB function');
 end
